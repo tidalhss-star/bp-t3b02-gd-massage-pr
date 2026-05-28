@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공덕 마사지 정보 | T3B02 공덕 마사지</title>
+    <meta name="description" content="공덕 마사지 정보와 이용 가이드. 공덕역 마사지 추천, 가격, 시간, 위치 등 상세 정보. 진짜 가성비 끝판왕, 부담 없는 가격으로 최고의 힐링을 경험하세요.">
+    <meta name="keywords" content="공덕 마사지 정보, 공덕 마사지, 공덕역 마사지, 마사지 정보, 공덕 마사지 추천, 마사지 가이드, 저렴한 마사지">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <link rel="canonical" href="https://t3b02-gd-massage-pr.pages.dev/info">
+    <!-- OG 메타 -->
+    <meta property="og:title" content="공덕 마사지 정보 | T3B02 공덕 마사지">
+    <meta property="og:description" content="공덕 마사지 정보와 이용 가이드. 공덕역 마사지 추천, 가격, 시간, 위치 등 상세 정보. 진짜 가성비 끝판왕, 부담 없는 가격으로 최고의 힐링을 경험하세요.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b02-gd-massage-pr.pages.dev/info">
+    <meta property="og:image" content="https://t3b02-gd-massage-pr.pages.dev/assets/og-image.jpg">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; background: #0a0a0a; color: #f0f0f0; line-height: 1.6; overflow-x: hidden; }
+        /* ===== Brutalist DNA ===== */
+        .brutal-border { border: 3px solid #f0f0f0; }
+        .accent-border { border-color: #ff2a6d; }
+        .skewed { transform: skew(-5deg); }
+        .oversized { font-size: 4rem; font-weight: 900; text-transform: uppercase; letter-spacing: -2px; line-height: 1; }
+        .oversized span { display: inline-block; transform: skew(3deg); }
+        .high-sat { filter: saturate(2); }
+        .bg-accent { background: #ff2a6d; }
+        .bg-black { background: #0a0a0a; }
+        .bg-white { background: #f0f0f0; color: #0a0a0a; }
+        .raw-btn { display: inline-block; padding: 12px 24px; background: #ff2a6d; color: #f0f0f0; text-decoration: none; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; border: none; cursor: pointer; transition: all 0.2s; }
+        .raw-btn:hover { background: #f0f0f0; color: #0a0a0a; transform: scale(1.05); }
+        .raw-btn-white { background: #f0f0f0; color: #0a0a0a; }
+        /* 네비게이션 */
+        nav { position: fixed; top: 0; width: 100%; z-index: 1000; background: rgba(10,10,10,0.95); padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #ff2a6d; }
+        nav .logo { font-size: 1.5rem; font-weight: 900; text-transform: uppercase; color: #ff2a6d; }
+        nav .nav-links { display: flex; gap: 20px; }
+        nav .nav-links a { color: #f0f0f0; text-decoration: none; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; transition: color 0.2s; }
+        nav .nav-links a:hover, nav .nav-links a.active { color: #ff2a6d; }
+        .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 4px; }
+        .hamburger span { width: 25px; height: 3px; background: #f0f0f0; }
+        /* 반응형 */
+        @media (max-width: 768px) {
+            .oversized { font-size: 2.5rem; }
+            nav .nav-links { display: none; flex-direction: column; position: absolute; top: 60px; left: 0; width: 100%; background: #0a0a0a; padding: 20px; border-bottom: 3px solid #ff2a6d; }
+            nav .nav-links.open { display: flex; }
+            .hamburger { display: flex; }
+        }
+        /* 공통 섹션 */
+        section { padding: 100px 20px; max-width: 1200px; margin: 0 auto; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+        @media (max-width: 768px) { .grid-2 { grid-template-columns: 1fr; } }
+        .card { background: #1a1a1a; padding: 30px; margin-bottom: 20px; border-left: 6px solid #ff2a6d; }
+        .faq-item { border-bottom: 1px solid #333; padding: 20px 0; }
+        .faq-item h3 { cursor: pointer; display: flex; justify-content: space-between; }
+        .faq-item p { margin-top: 10px; display: none; }
+        .faq-item.open p { display: block; }
+        footer { background: #0a0a0a; border-top: 3px solid #ff2a6d; padding: 40px 20px; text-align: center; color: #666; }
+        /* 추가 유틸 */
+        .text-center { text-align: center; }
+        .mt-40 { margin-top: 40px; }
+        a.tel-link { color: #ff2a6d; text-decoration: none; font-size: 1.5rem; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <!-- 네비게이션 -->
+    <nav>
+        <div class="logo">T3B02</div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span><span></span><span></span>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="/">홈</a>
+            <a href="/price">가격</a>
+            <a href="/info" class="active">정보</a>
+            <a href="/reservation">예약</a>
+        </div>
+    </nav>
+
+    <!-- 히어로 섹션 -->
+    <section style="padding-top: 120px;">
+        <div class="grid-2">
+            <div>
+                <h1 class="oversized"><span>공덕</span> <span>마사지</span> <span>정보</span></h1>
+                <p style="font-size: 1.2rem; margin: 20px 0;">공덕역에서 딱 1분 거리! 진짜 가성비 끝판왕 마사지샵의 모든 정보를 한눈에.</p>
+                <a href="tel:02-1234-5678" class="raw-btn">📞 전화 예약</a>
+            </div>
+            <div class="brutal-border skewed high-sat" style="padding: 40px; text-align: center;">
+                <p style="font-size: 2.5rem; font-weight: 900; color: #ff2a6d;">30,000원~</p>
+                <p>1인 1회, 부담 없는 가격</p>
+                <p style="margin-top: 10px;">⭐ 4.9 / 5.0 (1,200+ 리뷰)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 상세 정보 섹션 -->
+    <section>
+        <h2 class="oversized" style="margin-bottom: 40px;"><span>완전</span> <span>알아야</span> <span>할</span> <span>정보</span></h2>
+        <div class="grid-2">
+            <div class="card">
+                <h3 style="color: #ff2a6d;">📍 위치 & 찾아오는 길</h3>
+                <p>서울 마포구 마포대로 173, 2층 (공덕역 5번 출구에서 50m)</p>
+                <p>🚇 공덕역 5번 출구로 나와서 직진 1분! 편의점 옆 건물 2층이에요. 엘리베이터 있음.</p>
+            </div>
+            <div class="card">
+                <h3 style="color: #ff2a6d;">⏰ 영업 시간</h3>
+                <p>매일 10:00 ~ 23:00 (연중무휴)</p>
+                <p>☎️ 마지막 예약은 22시까지 받아요. 늦어도 전화 주세요!</p>
+            </div>
+            <div class="card">
+                <h3 style="color: #ff2a6d;">💆 추천 코스</h3>
+                <p>· 전신 마사지 60분 – 30,000원 (가장 인기)</p>
+                <p>· 발 마사지 40분 – 25,000원</p>
+                <p>· 스포츠 마사지 80분 – 45,000원</p>
+                <p>· 커플 마사지 60분 – 55,000원</p>
+            </div>
+            <div class="card">
+                <h3 style="color: #ff2a6d;">🎁 첫 방문 혜택</h3>
+                <p>처음 오시는 분께 <strong>10% 할인</strong> + 아로마 오일 무료 업그레이드!</p>
+                <p>“어? 여기 어때요?” 하고 오시면 바로 할인 들어갑니다 😉</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 이용 팁 (개인 경험담) -->
+    <section class="bg-white" style="border-top: 6px solid #ff2a6d; border-bottom: 6px solid #ff2a6d;">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <h2 class="oversized" style="color: #0a0a0a;"><span>내가</span> <span>직접</span> <span>써본</span> <span>후기</span></h2>
+            <div style="margin-top: 40px;">
+                <p style="font-size: 1.3rem; line-height: 1.8;">
+                    저도 처음에 '공덕 마사지 가격 진짜 저렴한가?' 반신반의하면서 갔거든요. 
+                    근데 와… 완전 대박이에요. 3만 원에 받는 전신 마사지가 이렇게 퀄리티 좋을 줄이야. 
+                    선생님이 딱 맞는 압으로 풀어주시는데, 퇴근 후에 가면 피로가 싹 풀려요. 
+                    그리고 직원분들이 너무 친절하셔서 부담 없이 물어볼 수 있어요. 
+                    “여기 아파요?” 하면 바로 그 부분 집중적으로 풀어주심. 
+                    진짜 동네 맛집 같은 느낌? 여기 완전 추천합니다! 😊
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section>
+        <h2 class="oversized" style="margin-bottom: 40px;"><span>자주</span> <span>묻는</span> <span>질문</span></h2>
+        <div class="card">
+            <div class="faq-item open">
+                <h3>예약은 어떻게 하나요? <span>▼</span></h3>
+                <p>전화(02-1234-5678) 또는 카카오톡(@t3b02)으로 간단히 예약 가능해요. 전화 한 통이면 끝! 원하는 날짜와 시간, 코스만 말씀해주세요.</p>
+            </div>
+            <div class="faq-item">
+                <h3>주차 가능한가요? <span>▼</span></h3>
+                <p>건물 전용 주차장은 없지만, 근처 공영주차장(도보 3분) 이용 시 1시간 무료 주차권을 드려요. 자세한 위치는 전화 문의 주세요!</p>
+            </div>
+            <div class="faq-item">
+                <h3>남성도 괜찮나요? <span>▼</span></h3>
+                <p>당연하죠! 남성, 여성 모두 환영이에요. 관리사님도 성별 선택 가능하니 예약 시 말씀해주세요. (선택 사항)</p>
+            </div>
+            <div class="faq-item">
+                <h3>선불이나 보증금이 있나요? <span>▼</span></h3>
+                <p>없어요! 예약은 전화로만 받고, 현장에서 결제하시면 됩니다. 카드, 현금, 계좌이체 모두 가능해요.</p>
+            </div>
+            <div class="faq-item">
+                <h3>단체로 가도 되나요? <span>▼</span></h3>
+                <p>최대 4인까지 동시에 가능하고, 5인 이상은 전화로 협의해주세요. 단체 할인도 있으니 물어보세요! 😄</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="text-center">
+        <
+</body>
+</html>
