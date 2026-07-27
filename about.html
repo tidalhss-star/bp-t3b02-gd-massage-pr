@@ -1,174 +1,77 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" data-theme="noir-gold" data-build="a4f2b9e1">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>공덕 마사지 정보 | T3B02 공덕 마사지</title>
-    <meta name="description" content="공덕 마사지 정보와 이용 가이드. 공덕역 마사지 추천, 가격, 시간, 위치 등 상세 정보. 진짜 가성비 끝판왕, 부담 없는 가격으로 최고의 힐링을 경험하세요.">
-    <meta name="keywords" content="공덕 마사지 정보, 공덕 마사지, 공덕역 마사지, 마사지 정보, 공덕 마사지 추천, 마사지 가이드, 저렴한 마사지">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-neon-void">
-    <link rel="canonical" href="https://t3b02-gd-massage-pr.pages.dev/info">
-    <!-- OG 메타 -->
-    <meta property="og:title" content="공덕 마사지 정보 | T3B02 공덕 마사지">
-    <meta property="og:description" content="공덕 마사지 정보와 이용 가이드. 공덕역 마사지 추천, 가격, 시간, 위치 등 상세 정보. 진짜 가성비 끝판왕, 부담 없는 가격으로 최고의 힐링을 경험하세요.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://t3b02-gd-massage-pr.pages.dev/info">
-    <meta property="og:image" content="https://t3b02-gd-massage-pr.pages.dev/assets/og-image.jpg">
+    <meta name="generator" content="custom-cms-x9k2">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-noir-gold">
+    <title>공덕 마사지 가격 및 서비스 선택 가이드 | 전문 바디케어 분석</title>
+    <meta name="description" content="공덕 마사지 가격 체계를 이해하고, 본인의 목적에 맞는 서비스를 선택하기 위한 가이드입니다. 예약 전 확인해야 할 용어와 의사소통 오류를 줄이는 방법을 전문적인 관점에서 제안합니다.">
+    <meta name="keywords" content="공덕 마사지 가격, 마사지 선택 가이드, 마사지 예약 주의사항, 공덕 바디케어">
+    <link rel="canonical" href="https://gongdeok-body-care.mapo-room-guide.xyz/about.html">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "공덕 마사지 가격 체계 및 선택 가이드",
+      "author": { "@type": "Organization", "name": "마포 바디케어 가이드" }
+    }
+    </script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Helvetica Neue', Arial, sans-serif; background: #0a0a0a; color: #f0f0f0; line-height: 1.6; overflow-x: hidden; }
-        /* ===== Brutalist DNA ===== */
-        .brutal-border { border: 3px solid #f0f0f0; }
-        .accent-border { border-color: #ff2a6d; }
-        .skewed { transform: skew(-5deg); }
-        .oversized { font-size: 4rem; font-weight: 900; text-transform: uppercase; letter-spacing: -2px; line-height: 1; }
-        .oversized span { display: inline-block; transform: skew(3deg); }
-        .high-sat { filter: saturate(2); }
-        .bg-accent { background: #ff2a6d; }
-        .bg-black { background: #0a0a0a; }
-        .bg-white { background: #f0f0f0; color: #0a0a0a; }
-        .raw-btn { display: inline-block; padding: 12px 24px; background: #ff2a6d; color: #f0f0f0; text-decoration: none; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; border: none; cursor: pointer; transition: all 0.2s; }
-        .raw-btn:hover { background: #f0f0f0; color: #0a0a0a; transform: scale(1.05); }
-        .raw-btn-white { background: #f0f0f0; color: #0a0a0a; }
-        /* 네비게이션 */
-        nav { position: fixed; top: 0; width: 100%; z-index: 1000; background: rgba(10,10,10,0.95); padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #ff2a6d; }
-        nav .logo { font-size: 1.5rem; font-weight: 900; text-transform: uppercase; color: #ff2a6d; }
-        nav .nav-links { display: flex; gap: 20px; }
-        nav .nav-links a { color: #f0f0f0; text-decoration: none; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; transition: color 0.2s; }
-        nav .nav-links a:hover, nav .nav-links a.active { color: #ff2a6d; }
-        .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 4px; }
-        .hamburger span { width: 25px; height: 3px; background: #f0f0f0; }
-        /* 반응형 */
-        @media (max-width: 768px) {
-            .oversized { font-size: 2.5rem; }
-            nav .nav-links { display: none; flex-direction: column; position: absolute; top: 60px; left: 0; width: 100%; background: #0a0a0a; padding: 20px; border-bottom: 3px solid #ff2a6d; }
-            nav .nav-links.open { display: flex; }
-            .hamburger { display: flex; }
-        }
-        /* 공통 섹션 */
-        section { padding: 100px 20px; max-width: 1200px; margin: 0 auto; }
-        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
-        @media (max-width: 768px) { .grid-2 { grid-template-columns: 1fr; } }
-        .card { background: #1a1a1a; padding: 30px; margin-bottom: 20px; border-left: 6px solid #ff2a6d; }
-        .faq-item { border-bottom: 1px solid #333; padding: 20px 0; }
-        .faq-item h3 { cursor: pointer; display: flex; justify-content: space-between; }
-        .faq-item p { margin-top: 10px; display: none; }
-        .faq-item.open p { display: block; }
-        footer { background: #0a0a0a; border-top: 3px solid #ff2a6d; padding: 40px 20px; text-align: center; color: #666; }
-        /* 추가 유틸 */
-        .text-center { text-align: center; }
-        .mt-40 { margin-top: 40px; }
-        a.tel-link { color: #ff2a6d; text-decoration: none; font-size: 1.5rem; font-weight: bold; }
+        :root { --noir: #0a0a0a; --gold: #c5a059; --text: #e0e0e0; }
+        body { background-color: var(--noir); color: var(--text); font-family: 'Pretendard', sans-serif; line-height: 1.8; margin: 0; }
+        header { border-bottom: 1px solid var(--gold); padding: 2rem; text-align: center; }
+        h1 { color: var(--gold); font-size: 2.5rem; margin-bottom: 1rem; }
+        .n-main-6cv5::first-letter { font-size: 3rem; color: var(--gold); float: left; margin-right: 0.5rem; }
+        section { padding: 3rem 1.5rem; max-width: 900px; margin: 0 auto; }
+        .k-card-7wwg { border: 1px solid #333; padding: 2rem; margin-bottom: 2rem; background: #121212; }
+        .r-box-ojal { background: var(--gold); color: var(--noir); padding: 1.5rem; font-weight: bold; }
+        footer { text-align: center; padding: 2rem; font-size: 0.8rem; border-top: 1px solid #333; }
+        @media (max-width: 768px) { section { padding: 1.5rem; } }
     </style>
+  <meta property="og:url" content="https://gongdeok-body-care.mapo-room-guide.xyz/about.html">
 </head>
 <body>
 
-    <!-- 네비게이션 -->
+<header>
     <nav>
-        <div class="logo">T3B02</div>
-        <div class="hamburger" onclick="toggleMenu()">
-            <span></span><span></span><span></span>
-        </div>
-        <div class="nav-links" id="navLinks">
-            <a href="/">홈</a>
-            <a href="/price">가격</a>
-            <a href="/info" class="active">정보</a>
-            <a href="/reservation">예약</a>
-        </div>
+        <a href="/">홈</a> | <a href="/price-guide">가격 가이드</a> | <a href="/booking-info">예약 안내</a>
     </nav>
+    <h1>공덕 마사지 가격 및 서비스 선택 가이드</h1>
+</header>
 
-    <!-- 히어로 섹션 -->
-    <section style="padding-top: 120px;">
-        <div class="grid-2">
-            <div>
-                <h1 class="oversized"><span>공덕</span> <span>마사지</span> <span>정보</span></h1>
-                <p style="font-size: 1.2rem; margin: 20px 0;">공덕역에서 딱 1분 거리! 진짜 가성비 끝판왕 마사지샵의 모든 정보를 한눈에.</p>
-                <a href="tel:02-1234-5678" class="raw-btn">📞 전화 예약</a>
-            </div>
-            <div class="brutal-border skewed high-sat" style="padding: 40px; text-align: center;">
-                <p style="font-size: 2.5rem; font-weight: 900; color: #ff2a6d;">30,000원~</p>
-                <p>1인 1회, 부담 없는 가격</p>
-                <p style="margin-top: 10px;">⭐ 4.9 / 5.0 (1,200+ 리뷰)</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- 상세 정보 섹션 -->
+<main>
     <section>
-        <h2 class="oversized" style="margin-bottom: 40px;"><span>완전</span> <span>알아야</span> <span>할</span> <span>정보</span></h2>
-        <div class="grid-2">
-            <div class="card">
-                <h3 style="color: #ff2a6d;">📍 위치 & 찾아오는 길</h3>
-                <p>서울 마포구 마포대로 173, 2층 (공덕역 5번 출구에서 50m)</p>
-                <p>🚇 공덕역 5번 출구로 나와서 직진 1분! 편의점 옆 건물 2층이에요. 엘리베이터 있음.</p>
-            </div>
-            <div class="card">
-                <h3 style="color: #ff2a6d;">⏰ 영업 시간</h3>
-                <p>매일 10:00 ~ 23:00 (연중무휴)</p>
-                <p>☎️ 마지막 예약은 22시까지 받아요. 늦어도 전화 주세요!</p>
-            </div>
-            <div class="card">
-                <h3 style="color: #ff2a6d;">💆 추천 코스</h3>
-                <p>· 전신 마사지 60분 – 30,000원 (가장 인기)</p>
-                <p>· 발 마사지 40분 – 25,000원</p>
-                <p>· 스포츠 마사지 80분 – 45,000원</p>
-                <p>· 커플 마사지 60분 – 55,000원</p>
-            </div>
-            <div class="card">
-                <h3 style="color: #ff2a6d;">🎁 첫 방문 혜택</h3>
-                <p>처음 오시는 분께 <strong>10% 할인</strong> + 아로마 오일 무료 업그레이드!</p>
-                <p>“어? 여기 어때요?” 하고 오시면 바로 할인 들어갑니다 😉</p>
-            </div>
-        </div>
+        <h2 class="n-main-6cv5">공덕 지역 마사지 가격 구성 요소 이해</h2>
+        <p>공덕 인근에서 제공되는 바디케어 서비스는 단순히 시간 대비 비용으로 결정되지 않습니다. 전문적인 관리 프로그램은 사용되는 오일의 등급, 테라피스트의 숙련도, 그리고 시설의 인프라에 따라 가격 산정 방식이 달라집니다. 일반적으로 60분, 90분, 120분 단위로 세분화된 가격 체계가 존재하며, 회원권 제도나 정기권 활용 시 단가를 낮출 수 있는 구조가 많습니다.</p>
+        <p>가격표를 검토할 때는 부가세 포함 여부와 주간/야간 시간대에 따른 가격 변동 가능성을 사전에 확인해야 합니다. 특히 공덕 지역의 경우 직장인 유동 인구가 많아 점심시간이나 퇴근 후 시간대의 수요가 집중되므로, 해당 시간대에 적용되는 할인 혜택이나 고정 가격제를 명확히 인지하는 것이 불필요한 지출을 막는 핵심입니다.</p>
     </section>
 
-    <!-- 이용 팁 (개인 경험담) -->
-    <section class="bg-white" style="border-top: 6px solid #ff2a6d; border-bottom: 6px solid #ff2a6d;">
-        <div style="max-width: 800px; margin: 0 auto;">
-            <h2 class="oversized" style="color: #0a0a0a;"><span>내가</span> <span>직접</span> <span>써본</span> <span>후기</span></h2>
-            <div style="margin-top: 40px;">
-                <p style="font-size: 1.3rem; line-height: 1.8;">
-                    저도 처음에 '공덕 마사지 가격 진짜 저렴한가?' 반신반의하면서 갔거든요. 
-                    근데 와… 완전 대박이에요. 3만 원에 받는 전신 마사지가 이렇게 퀄리티 좋을 줄이야. 
-                    선생님이 딱 맞는 압으로 풀어주시는데, 퇴근 후에 가면 피로가 싹 풀려요. 
-                    그리고 직원분들이 너무 친절하셔서 부담 없이 물어볼 수 있어요. 
-                    “여기 아파요?” 하면 바로 그 부분 집중적으로 풀어주심. 
-                    진짜 동네 맛집 같은 느낌? 여기 완전 추천합니다! 😊
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ -->
     <section>
-        <h2 class="oversized" style="margin-bottom: 40px;"><span>자주</span> <span>묻는</span> <span>질문</span></h2>
-        <div class="card">
-            <div class="faq-item open">
-                <h3>예약은 어떻게 하나요? <span>▼</span></h3>
-                <p>전화(02-1234-5678) 또는 카카오톡(@t3b02)으로 간단히 예약 가능해요. 전화 한 통이면 끝! 원하는 날짜와 시간, 코스만 말씀해주세요.</p>
-            </div>
-            <div class="faq-item">
-                <h3>주차 가능한가요? <span>▼</span></h3>
-                <p>건물 전용 주차장은 없지만, 근처 공영주차장(도보 3분) 이용 시 1시간 무료 주차권을 드려요. 자세한 위치는 전화 문의 주세요!</p>
-            </div>
-            <div class="faq-item">
-                <h3>남성도 괜찮나요? <span>▼</span></h3>
-                <p>당연하죠! 남성, 여성 모두 환영이에요. 관리사님도 성별 선택 가능하니 예약 시 말씀해주세요. (선택 사항)</p>
-            </div>
-            <div class="faq-item">
-                <h3>선불이나 보증금이 있나요? <span>▼</span></h3>
-                <p>없어요! 예약은 전화로만 받고, 현장에서 결제하시면 됩니다. 카드, 현금, 계좌이체 모두 가능해요.</p>
-            </div>
-            <div class="faq-item">
-                <h3>단체로 가도 되나요? <span>▼</span></h3>
-                <p>최대 4인까지 동시에 가능하고, 5인 이상은 전화로 협의해주세요. 단체 할인도 있으니 물어보세요! 😄</p>
-            </div>
+        <div class="k-card-7wwg">
+            <h3>서비스 목적에 따른 분류와 기준</h3>
+            <p>신체 회복이 목적인지, 단순한 피로 해소가 목적인지에 따라 선택해야 할 관리 방식이 다릅니다. 건식 테라피는 근육의 결을 따라 압을 전달하여 신체 정렬에 집중하며, 오일 테라피는 림프 순환과 심리적 이완을 유도합니다. 가격대 역시 이러한 전문성에 따라 차등 적용됩니다.</p>
+            <p>또한, 특정 부위에 집중하는 부분 관리는 전신 관리보다 비용이 효율적일 수 있습니다. 본인이 호소하는 불편함이 승모근이나 허리 등 특정 부위에 집중되어 있다면, 전신 관리보다는 부분 집중 케어를 선택하는 것이 경제적이며 실질적인 만족도를 높이는 전략이 됩니다.</p>
         </div>
     </section>
 
-    <!-- CTA -->
-    <section class="text-center">
-        <
+    <section>
+        <h3>예약 전 의사소통 오류를 줄이는 방법</h3>
+        <p>전문적인 서비스를 제공받기 위해서는 예약 단계에서부터 본인의 신체 상태를 명확히 전달하는 과정이 필수적입니다. 단순히 '마사지'라고 표현하기보다는, 최근 겪고 있는 통증의 부위와 강도, 그리고 이전에 받은 관리 중 불편했던 점을 구체적으로 언급하십시오. 이는 테라피스트가 고객의 상태에 최적화된 강도를 설정하는 기초 데이터가 됩니다.</p>
+        <p>예약 시점에 가격에 포함된 서비스 범위(샤워 시설 이용, 일회용품 제공 여부 등)를 명확히 질문하는 것 또한 전문적인 고객의 태도입니다. 불필요한 오해를 방지하고 온전히 관리에 집중하기 위해서는 사전에 규정된 안내 사항을 숙지하고, 서비스 제공자와 서비스의 범위를 명확히 합의하는 절차를 거치시기 바랍니다.</p>
+    </section>
+
+    <section>
+        <div class="r-box-ojal">
+            주의사항: 모든 서비스 안내는 매장별 정책에 따라 상이할 수 있습니다. 예약 전 반드시 해당 지점의 공식 안내를 확인하십시오.
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 공덕 바디케어 가이드. All rights reserved. (본 데이터는 정보 제공 목적으로만 작성되었습니다.)</p>
+</footer>
+
 </body>
 </html>
